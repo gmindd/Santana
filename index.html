@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Santana Electrical Services — NICEIC and CHAS certified commercial and residential electricians in London. Trusted by Zara, Holiday Inn and Twickenham Stadium.">
+  <title>Santana Electrical Services | Commercial Electricians London</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#home" class="nav__logo">Santana<em>Electrical</em></a>
+
+      <nav class="nav__links" id="navLinks" aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#work">Our Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="#contact" class="btn btn--gold nav__cta">Get a Quote</a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <p class="hero__tag">NICEIC &amp; CHAS Certified — London</p>
+        <h1 class="hero__headline" id="hero-heading">
+          Electrical<br>
+          Solutions<br>
+          <span>Built to Last.</span>
+        </h1>
+        <p class="hero__sub">
+          Commercial and residential electrical services trusted by London's leading brands —
+          delivered on time, to specification, and to the highest safety standards.
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--gold">Get a Free Quote</a>
+          <a href="#work"    class="btn btn--outline">View Our Work</a>
+        </div>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+
+    <!-- ===== TRUST BAR ===== -->
+    <section class="trust" aria-label="Trusted by">
+      <div class="container">
+        <p class="trust__label">Trusted by leading brands &amp; developers</p>
+        <div class="trust__logos" role="list">
+          <div class="trust__logo" role="listitem">ZARA</div>
+          <div class="trust__logo" role="listitem">Holiday Inn</div>
+          <div class="trust__logo" role="listitem">Twickenham<br>Stadium</div>
+          <div class="trust__logo" role="listitem">Pull &amp; Bear</div>
+          <div class="trust__logo trust__logo--cert" role="listitem">NICEIC<br>Registered</div>
+          <div class="trust__logo trust__logo--cert" role="listitem">CHAS<br>Accredited</div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">What We Do</span>
+          <h2>Comprehensive Electrical Services Across London</h2>
+        </div>
+
+        <div class="services__grid">
+
+          <!-- Commercial (featured) -->
+          <article class="service-card service-card--featured reveal">
+            <div class="service-card__icon">
+              <!-- Substitui pelo teu ficheiro: assets/images/icon-commercial.svg -->
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                <rect x="6" y="14" width="36" height="28" rx="2" stroke="#D4973C" stroke-width="2"/>
+                <path d="M16 14V10a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4" stroke="#D4973C" stroke-width="2"/>
+                <line x1="24" y1="14" x2="24" y2="42" stroke="#D4973C" stroke-width="1.5" opacity="0.4"/>
+                <rect x="11" y="22" width="10" height="8" rx="1" stroke="#D4973C" stroke-width="1.5"/>
+                <rect x="27" y="22" width="10" height="8" rx="1" stroke="#D4973C" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <h3>Commercial</h3>
+            <p>Full electrical installations and fit-outs for offices, retail, hotels, hospitals, and educational buildings — from design to final sign-off.</p>
+            <ul class="service-card__list">
+              <li>Retail fit-outs &amp; refurbishments</li>
+              <li>Hotel &amp; hospitality installations</li>
+              <li>Office blocks &amp; co-working spaces</li>
+              <li>Hospitals &amp; care facilities</li>
+              <li>Schools &amp; public buildings</li>
+            </ul>
+            <a href="#contact" class="service-card__link">Make an enquiry →</a>
+          </article>
+
+          <!-- Residential -->
+          <article class="service-card reveal">
+            <div class="service-card__icon">
+              <!-- Substitui pelo teu ficheiro: assets/images/icon-residential.svg -->
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                <path d="M8 22L24 8l16 14" stroke="#D4973C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 20v18a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V20" stroke="#D4973C" stroke-width="2"/>
+                <rect x="20" y="30" width="8" height="10" rx="1" stroke="#D4973C" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <h3>Residential</h3>
+            <p>From individual property renovations to large estate developments, we deliver the full spectrum of residential electrical services.</p>
+            <ul class="service-card__list">
+              <li>Full rewires &amp; consumer unit upgrades</li>
+              <li>EV charger installation</li>
+              <li>Smart home &amp; lighting systems</li>
+              <li>New build electrical installations</li>
+              <li>Extensions &amp; conversions</li>
+            </ul>
+            <a href="#contact" class="service-card__link">Make an enquiry →</a>
+          </article>
+
+          <!-- Testing & Maintenance -->
+          <article class="service-card reveal">
+            <div class="service-card__icon">
+              <!-- Substitui pelo teu ficheiro: assets/images/icon-maintenance.svg -->
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+                <circle cx="24" cy="26" r="14" stroke="#D4973C" stroke-width="2"/>
+                <path d="M24 18v8l5 4" stroke="#D4973C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M24 8v4M38 12l-2.5 3M40 26h-4" stroke="#D4973C" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Testing &amp; Maintenance</h3>
+            <p>Ongoing inspections and testing to keep your electrical systems safe, compliant, and fully operational — with rapid response when it matters most.</p>
+            <ul class="service-card__list">
+              <li>EICR condition reports</li>
+              <li>PAT testing</li>
+              <li>Emergency callouts</li>
+              <li>Planned maintenance contracts</li>
+              <li>Fault-finding &amp; repairs</li>
+            </ul>
+            <a href="#contact" class="service-card__link">Make an enquiry →</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ===== ABOUT / STATS ===== -->
+    <section class="about" id="about">
+      <div class="container about__inner">
+
+        <div class="about__text reveal">
+          <span class="section-tag">About Us</span>
+          <h2>London's Electrical Partner for Demanding Projects</h2>
+          <p>Santana Electrical Services is a London-based electrical contractor specialising in large-scale commercial projects. We work directly with main contractors, developers, and project managers who need a reliable, certified electrical partner from the ground up.</p>
+          <p>Holding both NICEIC registration and CHAS accreditation — two of the most recognised industry certifications in the UK — we ensure every project meets the highest safety, quality, and compliance standards.</p>
+          <a href="#contact" class="btn btn--dark">Work With Us</a>
+        </div>
+
+        <div class="about__stats">
+          <div class="stat reveal">
+            <span class="stat__num" data-target="10">0</span><span class="stat__plus">+</span>
+            <span class="stat__label">Years in business</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat__num" data-target="300">0</span><span class="stat__plus">+</span>
+            <span class="stat__label">Projects completed</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat__num" data-target="2">0</span>
+            <span class="stat__label">Industry accreditations</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat__num" data-target="100">0</span><span class="stat__plus">%</span>
+            <span class="stat__label">Compliance rate</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ===== OUR WORK ===== -->
+    <section class="work" id="work">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Our Work</span>
+          <h2>Projects We're Proud Of</h2>
+        </div>
+
+        <div class="work__grid">
+
+          <!-- Featured (spans 2 cols × 2 rows) -->
+          <!-- Substitui .work__item-placeholder por: <img src="assets/images/project-zara.jpg" alt="Zara London electrical installation" class="work__item-img"> -->
+          <div class="work__item reveal">
+            <div class="work__item-placeholder">
+              <div class="work__item-label">Featured project</div>
+            </div>
+            <div class="work__item-overlay">
+              <span class="work__item-label">Retail Sector</span>
+              <span class="work__item-title">Zara — London Flagship</span>
+            </div>
+          </div>
+
+          <div class="work__item reveal">
+            <!-- Substitui pelo teu ficheiro: assets/images/project-holidayinn.jpg -->
+            <div class="work__item-placeholder">
+              <div class="work__item-label">Hospitality</div>
+            </div>
+            <div class="work__item-overlay">
+              <span class="work__item-label">Hospitality</span>
+              <span class="work__item-title">Holiday Inn — Full Installation</span>
+            </div>
+          </div>
+
+          <div class="work__item reveal">
+            <!-- Substitui pelo teu ficheiro: assets/images/project-twickenham.jpg -->
+            <div class="work__item-placeholder">
+              <div class="work__item-label">Venues &amp; Events</div>
+            </div>
+            <div class="work__item-overlay">
+              <span class="work__item-label">Major Venues</span>
+              <span class="work__item-title">Twickenham Stadium</span>
+            </div>
+          </div>
+
+          <div class="work__item reveal">
+            <!-- Substitui pelo teu ficheiro: assets/images/project-pullandbear.jpg -->
+            <div class="work__item-placeholder">
+              <div class="work__item-label">Retail</div>
+            </div>
+            <div class="work__item-overlay">
+              <span class="work__item-label">Retail Fit-Out</span>
+              <span class="work__item-title">Pull &amp; Bear — Store Fit-Out</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="work__cta reveal">
+          <a href="#contact" class="btn btn--gold">Discuss Your Project</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ===== ACCREDITATIONS ===== -->
+    <section class="accreditations">
+      <div class="container accreditations__inner">
+
+        <div class="accreditations__left reveal">
+          <span class="section-tag">Credentials</span>
+          <h2>Certified, Compliant &amp; Insured</h2>
+          <p>Our accreditations are not box-ticking exercises — they represent our commitment to safety, quality, and accountability on every project we undertake.</p>
+
+          <div class="accreditations__certs">
+            <!-- Substitui pelo teu ficheiro: assets/images/badge-niceic.png -->
+            <div class="cert-badge">
+              <div class="cert-badge__name">NICEIC</div>
+              <div class="cert-badge__desc">National Inspection Council for Electrical Installation Contracting</div>
+            </div>
+            <!-- Substitui pelo teu ficheiro: assets/images/badge-chas.png -->
+            <div class="cert-badge">
+              <div class="cert-badge__name">CHAS</div>
+              <div class="cert-badge__desc">Contractors Health and Safety Assessment Scheme</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accreditations__right reveal">
+          <h3>Why Choose Santana?</h3>
+          <ul class="why__list">
+            <li class="why__item">
+              <div class="why__icon">✓</div>
+              <div class="why__text">
+                <h4>Fully certified &amp; insured</h4>
+                <p>Every installation is covered by full public liability and professional indemnity insurance.</p>
+              </div>
+            </li>
+            <li class="why__item">
+              <div class="why__icon">✓</div>
+              <div class="why__text">
+                <h4>Commercial-grade expertise</h4>
+                <p>We have the experience to handle the complexity and scale that major commercial projects demand.</p>
+              </div>
+            </li>
+            <li class="why__item">
+              <div class="why__icon">✓</div>
+              <div class="why__text">
+                <h4>Reliable &amp; deadline-driven</h4>
+                <p>Our project management approach keeps installations on schedule without compromising on quality.</p>
+              </div>
+            </li>
+            <li class="why__item">
+              <div class="why__icon">✓</div>
+              <div class="why__text">
+                <h4>London-based, nationally capable</h4>
+                <p>Based in London, with the capacity to support projects across the UK where our clients need us.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+      <div class="container contact__inner">
+
+        <div class="contact__info reveal">
+          <span class="section-tag">Get in Touch</span>
+          <h2>Let's Talk About Your Project</h2>
+          <p>Whether you're a contractor, developer, or property owner, we'd love to hear about your project. Fill in the form and we'll be in touch within one business day.</p>
+
+          <div class="contact__details">
+            <div class="contact__detail">
+              <div class="contact__detail-icon" aria-hidden="true">📞</div>
+              <a href="tel:+447988700270">+44 7988 700270</a>
+            </div>
+            <div class="contact__detail">
+              <div class="contact__detail-icon" aria-hidden="true">✉</div>
+              <!-- Actualiza para um email profissional quando disponível -->
+              <a href="mailto:info@santanaelectrical.co.uk">info@santanaelectrical.co.uk</a>
+            </div>
+            <div class="contact__detail">
+              <div class="contact__detail-icon" aria-hidden="true">📍</div>
+              <span>72 Old Church Road, London, E1 0QB</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__form reveal">
+          <form id="contactForm" novalidate>
+            <div class="form__row">
+              <div class="form__group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="John Smith" required>
+              </div>
+              <div class="form__group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="john@company.com" required>
+              </div>
+            </div>
+            <div class="form__row">
+              <div class="form__group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="+44 7000 000000">
+              </div>
+              <div class="form__group">
+                <label for="project-type">Type of Project</label>
+                <select id="project-type" name="project-type">
+                  <option value="">Select a service…</option>
+                  <option>Commercial — New Installation</option>
+                  <option>Commercial — Refurbishment</option>
+                  <option>Residential</option>
+                  <option>Testing &amp; Maintenance</option>
+                  <option>Emergency Callout</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form__group">
+              <label for="message">Project Details</label>
+              <textarea id="message" name="message" placeholder="Tell us about your project — location, scope, timeline…"></textarea>
+            </div>
+            <button type="submit" class="btn btn--gold form__submit">Send Enquiry</button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <div class="footer__brand-name">Santana<em>Electrical</em></div>
+          <p>NICEIC and CHAS certified electrical contractor based in London. Specialising in commercial and residential installations across the UK.</p>
+        </div>
+        <div>
+          <div class="footer__heading">Services</div>
+          <ul class="footer__links">
+            <li><a href="#services">Commercial</a></li>
+            <li><a href="#services">Residential</a></li>
+            <li><a href="#services">Testing &amp; Maintenance</a></li>
+            <li><a href="#contact">Get a Quote</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__heading">Company</div>
+          <ul class="footer__links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#work">Our Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer__heading">Contact</div>
+          <ul class="footer__links">
+            <li><a href="tel:+447988700270">+44 7988 700270</a></li>
+            <li><a href="mailto:info@santanaelectrical.co.uk">info@santanaelectrical.co.uk</a></li>
+            <li>72 Old Church Road<br>London, E1 0QB</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2025 Santana Electrical Services Ltd. All rights reserved.</span>
+        <span>Registered in England &amp; Wales</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
